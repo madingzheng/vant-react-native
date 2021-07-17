@@ -18,15 +18,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "gitHooks": {
-    "commit-msg": "commitlint -e -V",
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add ."
-    ]
-  }
+  ]
 }
