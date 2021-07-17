@@ -1,6 +1,6 @@
 {
   "name": "vant-react-native",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "> TODO: description",
   "author": "xite <xite.ma@tuya.com>",
   "homepage": "https://github.com/madingzheng/vant-react-native#readme",
@@ -29,7 +29,7 @@
     "url": "https://github.com/madingzheng/vant-react-native/issues"
   },
   "dependencies": {
-    "@vant-react-native/icons": "^1.0.1"
+    "@vant-react-native/icons": "^2.0.0"
   },
   "gitHead": "75141166e0ba391722701aab86ddd8dca5322f50"
 }
