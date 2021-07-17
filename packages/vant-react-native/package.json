@@ -15,7 +15,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry-npm.tuya-inc.top/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "@vant-react-native/icons": "^1.0.1"
-  }
+  },
+  "gitHead": "75141166e0ba391722701aab86ddd8dca5322f50"
 }

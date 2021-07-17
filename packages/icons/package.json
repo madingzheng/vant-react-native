@@ -36,5 +36,6 @@
   "devDependencies": {
     "react-native-iconfont-cli": "^2.2.3",
     "react-native-svg": "^12.1.1"
-  }
+  },
+  "gitHead": "75141166e0ba391722701aab86ddd8dca5322f50"
 }
