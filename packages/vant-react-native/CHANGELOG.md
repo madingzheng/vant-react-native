@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.4 (2021-07-17)
+
+**Note:** Version bump only for package mdz-vant-react-native
+
+
+
+
+
 ## [2.0.3](https://github.com/madingzheng/vant-react-native/compare/vant-react-native@2.0.2...vant-react-native@2.0.3) (2021-07-17)
 
 **Note:** Version bump only for package vant-react-native
