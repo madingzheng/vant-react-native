@@ -1,0 +1,29 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@youngjuning/eslint-config": "^1.4.0",
+    "@youngjuning/prettier-config": "^1.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.0.1",
+    "yorkie": "^2.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "gitHooks": {
+    "commit-msg": "commitlint -e -V",
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add ."
+    ]
+  }
+}
