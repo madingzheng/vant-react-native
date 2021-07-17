@@ -28,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/madingzheng/vant-react-native/issues"
   },
-  "dependencies": {
-    "@vant-react-native/icons": "^2.0.1"
-  },
   "gitHead": "e68a208c0c2b2fcb8931b0683067d5eed56ca313"
 }
