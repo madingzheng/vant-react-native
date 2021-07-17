@@ -1,5 +1,5 @@
 {
-  "name": "vant-react-native",
+  "name": "mdz-vant-react-native",
   "version": "2.0.3",
   "description": "> TODO: description",
   "author": "xite <xite.ma@tuya.com>",
@@ -31,5 +31,5 @@
   "dependencies": {
     "@vant-react-native/icons": "^2.0.1"
   },
-  "gitHead": "719249b96fc638bbb293fb34fbcd108d6d1e5b8c"
+  "gitHead": "e68a208c0c2b2fcb8931b0683067d5eed56ca313"
 }
