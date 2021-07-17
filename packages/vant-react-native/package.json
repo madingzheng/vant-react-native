@@ -1,0 +1,34 @@
+{
+  "name": "vant-react-native",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "xite <xite.ma@tuya.com>",
+  "homepage": "https://github.com/madingzheng/vant-react-native#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry-npm.tuya-inc.top/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madingzheng/vant-react-native.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "bugs": {
+    "url": "https://github.com/madingzheng/vant-react-native/issues"
+  },
+  "dependencies": {
+    "@vant-react-native/icons": "^1.0.0"
+  }
+}
